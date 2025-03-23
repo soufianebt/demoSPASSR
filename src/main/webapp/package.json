@@ -1,0 +1,35 @@
+{
+  "name": "@digimind/backbone-mfe-require",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack serve --config webpack.config.cjs",
+    "build": "webpack --mode=production --config webpack.config.cjs",
+    "serve": "webpack serve --mode=development --config webpack.config.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "backbone": "1.0.0",
+    "backbone.marionette": "1.8.8",
+    "jquery": "^3.7.1",
+    "single-spa": "^5.9.3",
+    "underscore": "1.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/plugin-transform-runtime": "^7.14.0",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/runtime": "^7.14.0",
+    "babel-loader": "^8.2.2",
+    "compression-webpack-plugin": "^11.1.0",
+    "copy-webpack-plugin": "^13.0.0",
+
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-config-single-spa": "^5.0.0",
+    "webpack-dev-server": "^4.0.0",
+    "webpack-merge": "^5.7.3"
+  }
+}
